@@ -46,7 +46,7 @@ a:focus {
 
 .navi a {
   display: block;
-  background-color: #f7f7f7;
+  background-color: #B8B8B8;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
   background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7); 
   background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7); 
@@ -128,7 +128,7 @@ a:focus {
 }
 
 .lcd{
-    border:2px solid #eeeeee;
+    border:2px solid #B8B8B8;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
