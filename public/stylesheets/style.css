@@ -52,7 +52,7 @@ a:focus {
   background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7); 
   background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7); 
   background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7); 
-  color: #a7a7a7;
+  color: #6F73FB;
   margin-left: 10px;
   margin-right: 10px;
   width: 70px;
@@ -78,11 +78,11 @@ a:focus {
   content: "";
   display: block;
   background: #fff;
-  border-top: 2px solid #ddd;
+  border-top: 2px solid #6F73FB;
   position: absolute;
   z-index: -1;
   border-radius: 50%;
-  box-shadow: inset 0px 8px 48px #ddd;
+  box-shadow: inset 0px 8px 48px #6F73FB;
 }
 
 .navi a:hover {
@@ -128,7 +128,7 @@ a:focus {
 }
 
 .lcd{
-    border:2px solid #B8B8B8;
+    border:2px solid #6F73FB;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -205,7 +205,7 @@ a:focus {
 .ui-slider-horizontal {
     position:relative;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, .3) inset;
-    border:1px solid #efefef;
+    border:1px solid #6F73FB;
     margin: 0 auto;
     
     margin-top:30px;
