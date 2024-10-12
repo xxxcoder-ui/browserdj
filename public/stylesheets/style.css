@@ -1,5 +1,4 @@
 body {
-    opacity: 0.1;
     padding:50px;
     padding-top:10px;
     
@@ -94,7 +93,7 @@ a:focus {
 
 #box {
     background-color: #FFFFFF;
-    opacity: 1;
+    opacity: 0.1;
     
     box-sizing: border-box;
     -moz-box-sizing: border-box;
