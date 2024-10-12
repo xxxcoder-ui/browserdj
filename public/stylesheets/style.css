@@ -93,7 +93,7 @@ a:focus {
 
 #box {
     background-color: #FFFFFF;
-    opacity: 0.1;
+    opacity: 5;
     
     box-sizing: border-box;
     -moz-box-sizing: border-box;
