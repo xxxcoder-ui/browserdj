@@ -51,7 +51,7 @@ var CanvasLCD = function(lcdType) {
       'on'         : '#000000',
       'on2'        : '#ffffff',
       'on3'        : '#ffffff',
-      'off'        : '#100000'
+      'off'        : '#000000'
     }
 
   };
