@@ -47,7 +47,7 @@ var CanvasLCD = function(lcdType) {
     },
     //'blueBLGray'
     '06' : {
-      'background' : '#100000',
+      'background' : '#ff7300',
       'on'         : '#000000',
       'on2'        : '#ffffff',
       'on3'        : '#ffffff',
