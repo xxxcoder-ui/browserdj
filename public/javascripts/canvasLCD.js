@@ -50,8 +50,8 @@ var CanvasLCD = function(lcdType) {
       'background' : '#efc8ee',
       'on'         : '#c9cde5',
       'on2'        : '#b7bbd5',
-      'on3'        : '#aeb3d2',
-      'off'        : '#5527ff'
+      'on3'        : '#efc8ee',
+      'off'        : '#efc8ee'
     }
 
   };
