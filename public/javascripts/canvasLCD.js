@@ -47,11 +47,11 @@ var CanvasLCD = function(lcdType) {
     },
     //'blueBLGray'
     '06' : {
-      'background' : '#efc8ee',
+      'background' : '#ffffff',
       'on'         : '#000000',
-      'on2'        : '#efc8ee',
-      'on3'        : '#efc8ee',
-      'off'        : '#efc8ee'
+      'on2'        : '#ffffff',
+      'on3'        : '#ffffff',
+      'off'        : '#ffffff'
     }
 
   };
