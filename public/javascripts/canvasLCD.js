@@ -48,8 +48,8 @@ var CanvasLCD = function(lcdType) {
     //'blueBLGray'
     '06' : {
       'background' : '#efc8ee',
-      'on'         : '#c9cde5',
-      'on2'        : '#b7bbd5',
+      'on'         : '#000000',
+      'on2'        : '#efc8ee',
       'on3'        : '#efc8ee',
       'off'        : '#efc8ee'
     }
