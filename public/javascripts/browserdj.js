@@ -459,8 +459,8 @@ $(function(){
     var lcd2 = new CanvasLCD('06');
     lcd1.init('canvasLCD1', 'initialword', false);
     lcd2.init('canvasLCD2', 'initialword', false);
-    lcd1.write2Display('lettersRL01','TrackA');
-    lcd2.write2Display('lettersRL01','TrackB');
+    lcd1.write2Display('lettersRL01','TrackA Please Add With Load');
+    lcd2.write2Display('lettersRL01','TrackB Please Add With Load');
 
 });
 
