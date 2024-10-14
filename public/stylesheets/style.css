@@ -52,7 +52,7 @@ a:focus {
   background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7); 
   background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7); 
   background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7); 
-  color: #6F73FB;
+  color: #ff7300;
   margin-left: 10px;
   margin-right: 10px;
   width: 70px;
@@ -78,7 +78,7 @@ a:focus {
   content: "";
   display: block;
   background: #fff;
-  border-top: 2px solid #6F73FB;
+  border-top: 2px solid #ff7300;
   position: absolute;
   z-index: -1;
   border-radius: 50%;
