@@ -92,7 +92,7 @@ a:focus {
 }
 
 #box {
-    background-color: #FFFFFF;
+    background-image: url(./public/w.jpg);
     opacity: 5;
     
     box-sizing: border-box;
