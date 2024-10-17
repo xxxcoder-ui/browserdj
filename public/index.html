@@ -102,6 +102,7 @@
               <li class="navi_small"><a href="#" id="button_open_track1" class="icon_home">Load</a></li>
               <li class="navi_small"><a href="#" id="stop1" class="icon_location">Stop</a></li>
               <li><a href="#" id="play1" class="icon_home">Play</a></li>
+              <div>
               <script>
                 // Web Audio example
 
@@ -110,7 +111,7 @@ import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7'
 // Create your own media element
 const audio = new Audio()
 audio.controls = true
-audio.src = '/public/sample.mp3'
+audio.src = './public/sample.mp3'
 
 // Create a WaveSurfer instance and pass the media element
 const wavesurfer = WaveSurfer.create({
@@ -177,7 +178,7 @@ filters.forEach((filter) => {
 })
 document.body.appendChild(container)
                 
-              </script>
+              </script></div>
             </ul>
           </div>
           <div class="span4">
