@@ -113,14 +113,14 @@
   <!-- the waveform will be rendered here -->
 </div>
 <script type="module">
-import WaveSurfer from './public/spectrogram.js'
-import WaveSurfer from './public/spectrogram.ts'
+import WaveSurfer from '/public/spectrogram.js'
+import WaveSurfer from '/public/spectrogram.ts'
 
 const wavesurfer = WaveSurfer.create({
   container: '#waveform',
   waveColor: '#4F4A85',
   progressColor: '#383351',
-  url: './public/sample.mp3',
+  url: '/public/sample.mp3',
 })
 
 // Initialize the Spectrogram plugin
