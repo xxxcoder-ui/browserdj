@@ -15,7 +15,15 @@
     <link rel="stylesheet" href="./stylesheets/style.css">
   </head>
   <body>
-    <div id="id="waveform">
+    <div class="row-fluid">
+      <div id="box" class="span12">
+        <div id="box_disp" class="row inbox">
+          <div id="box_lcd" class="row inbox">
+            <div class="span6">
+              <canvas id="canvasLCD1" class="lcd"></canvas>
+              <marquee>Music Mix 🎶 Please Add Music With "Load"</marquee>
+            </div>
+            <div id="id="waveform">
   <!-- the waveform will be rendered here -->
 </div>
 
@@ -26,21 +34,13 @@ const wavesurfer = WaveSurfer.create({
   container: '#waveform',
   waveColor: '#4F4A85',
   progressColor: '#383351',
-  url: '/public/sample.mp3',
+  url: 'public/sample.mp3',
 })
 
 wavesurfer.on('interaction', () => {
   wavesurfer.play()
 })
 </script>
-    <div class="row-fluid">
-      <div id="box" class="span12">
-        <div id="box_disp" class="row inbox">
-          <div id="box_lcd" class="row inbox">
-            <div class="span6">
-              <canvas id="canvasLCD1" class="lcd"></canvas>
-              <marquee>Music Mix 🎶 Please Add Music With "Load"</marquee>
-            </div>
             <div class="span6">
               <canvas id="canvasLCD2" class="lcd"></canvas>
               <marquee>Music Mix 🎶 Please Add Music With "Load"</marquee>
