@@ -113,9 +113,9 @@
   <!-- the waveform will be rendered here -->
 </div>
 <script type="module">
-import WaveSurfer from '//spectrogram.js'
-import WaveSurfer from '//spectrogram.ts'
-import WaveSurfer from '/public/wave.js'
+import WaveSurfer from 'browserdj/public/spectrogram.js'
+import WaveSurfer from 'browserdj/public/spectrogram.ts'
+import WaveSurfer from 'browserdj/public/wave.js'
 import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js'
 
 
@@ -127,7 +127,7 @@ const wavesurfer = WaveSurfer.create({
   container: '#waveform',
   waveColor: '#4F4A85',
   progressColor: '#383351',
-  url: '/public/sample.mp3',
+  url: 'browserdj/public/sample.mp3',
 })
 
 // Initialize the Spectrogram plugin
