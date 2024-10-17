@@ -102,7 +102,28 @@
               <li class="navi_small"><a href="#" id="button_open_track1" class="icon_home">Load</a></li>
               <li class="navi_small"><a href="#" id="stop1" class="icon_location">Stop</a></li>
               <li><a href="#" id="play1" class="icon_home">Play</a></li>
-              <div>
+            </ul>
+          </div>
+          <div class="span4">
+            <div id="box_crossfader" class="inbox">
+              <div id="crossfader" class="sl"> </div>
+            </div>
+            <p id="crossfader_display">0</p>
+          </div>
+          <div id="box_play2" class="span4">
+            <ul class="navi">
+              <li><a id="play2" href="#" class="icon_home">Play</a></li>
+              <li class="navi_small"><a id="stop2" href="#" class="icon_location">Stop</a></li>
+              <li class="navi_small"><a href="#" id="button_open_track2" class="icon_home">Load</a></li>
+              <li style="display:none">
+                <input id="input_file_track2" type="file" accept="*">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
               <script>
                 // Web Audio example
 
@@ -179,26 +200,5 @@ filters.forEach((filter) => {
 document.body.appendChild(container)
                 
               </script></div>
-            </ul>
-          </div>
-          <div class="span4">
-            <div id="box_crossfader" class="inbox">
-              <div id="crossfader" class="sl"> </div>
-            </div>
-            <p id="crossfader_display">0</p>
-          </div>
-          <div id="box_play2" class="span4">
-            <ul class="navi">
-              <li><a id="play2" href="#" class="icon_home">Play</a></li>
-              <li class="navi_small"><a id="stop2" href="#" class="icon_location">Stop</a></li>
-              <li class="navi_small"><a href="#" id="button_open_track2" class="icon_home">Load</a></li>
-              <li style="display:none">
-                <input id="input_file_track2" type="file" accept="*">
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
