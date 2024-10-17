@@ -103,6 +103,24 @@
               <li class="navi_small"><a href="#" id="stop1" class="icon_location">Stop</a></li>
               <li><a href="#" id="play1" class="icon_home">Play</a></li>
             </ul>
+            <div id="waveform">
+  <!-- the waveform will be rendered here -->
+</div>
+
+<script type="module">
+import WaveSurfer from '../public/wave.js'
+
+const wavesurfer = WaveSurfer.create({
+  container: '#waveform',
+  waveColor: '#4F4A85',
+  progressColor: '#383351',
+  url: '*',
+})
+
+wavesurfer.on('interaction', () => {
+  wavesurfer.play()
+})
+</script>
           </div>
           <div class="span4">
             <div id="box_crossfader" class="inbox">
