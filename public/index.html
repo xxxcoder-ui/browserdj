@@ -15,6 +15,24 @@
     <link rel="stylesheet" href="./stylesheets/style.css">
   </head>
   <body>
+    <div id="id="waveform">
+  <!-- the waveform will be rendered here -->
+</div>
+
+<script type="module">
+import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js'
+
+const wavesurfer = WaveSurfer.create({
+  container: '#waveform',
+  waveColor: '#4F4A85',
+  progressColor: '#383351',
+  url: '/sample.mp3',
+})
+
+wavesurfer.on('interaction', () => {
+  wavesurfer.play()
+})
+</script>
     <div class="row-fluid">
       <div id="box" class="span12">
         <div id="box_disp" class="row inbox">
@@ -103,24 +121,6 @@
               <li class="navi_small"><a href="#" id="stop1" class="icon_location">Stop</a></li>
               <li><a href="#" id="play1" class="icon_home">Play</a></li>
             </ul>
-            <div id="id="file">
-  <!-- the waveform will be rendered here -->
-</div>
-
-<script type="module">
-import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js'
-
-const wavesurfer = WaveSurfer.create({
-  container: '#waveform',
-  waveColor: '#4F4A85',
-  progressColor: '#383351',
-  url: '*',
-})
-
-wavesurfer.on('interaction', () => {
-  wavesurfer.play()
-})
-</script>
           </div>
           <div class="span4">
             <div id="box_crossfader" class="inbox">
