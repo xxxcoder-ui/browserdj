@@ -122,6 +122,15 @@ const wavesurfer = WaveSurfer.create({
   url: './public/sample.mp3',
 })
 
+// Initialize the Spectrogram plugin
+ws.registerPlugin(
+  Spectrogram.create({
+    labels: true,
+    height: 200,
+    splitChannels: true,
+  }),
+)
+
 wavesurfer.on('interaction', () => {
   wavesurfer.play()
 })
