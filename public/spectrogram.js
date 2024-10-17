@@ -3,7 +3,7 @@ const ws = WaveSurfer.create({
   container: '#waveform',
   waveColor: 'rgb(200, 0, 200)',
   progressColor: 'rgb(100, 0, 100)',
-  url: '/examples/audio/audio.wav',
+  url: '/public/sample.mp3',
   sampleRate: 22050,
 })
 
@@ -20,12 +20,3 @@ ws.registerPlugin(
 ws.once('interaction', () => {
   ws.play()
 })
-
-/*
-<html>
-  <div id="waveform"></div>
-  <p>
-    📖 <a href="https://wavesurfer.xyz/docs/classes/plugins_spectrogram.SpectrogramPlugin">Spectrogram plugin docs</a>
-  </p>
-</html>
-*/
