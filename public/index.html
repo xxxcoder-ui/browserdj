@@ -125,7 +125,6 @@
         </div>
       </div>
     </div>
-    <div>
               <script>
                 // Web Audio example
 
@@ -134,7 +133,7 @@ import WaveSurfer from './javascripts/wave.js'
 // Create your own media element
 const audio = new Audio()
 audio.controls = true
-audio.src = './public/sample.mp3'
+audio.src = '/public/sample.mp3'
 
 // Create a WaveSurfer instance and pass the media element
 const wavesurfer = WaveSurfer.create({
@@ -201,6 +200,6 @@ filters.forEach((filter) => {
 })
 document.body.appendChild(container)
                 
-              </script></div>
+              </script>
   </body>
 </html>
