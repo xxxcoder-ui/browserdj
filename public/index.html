@@ -91,6 +91,24 @@
             <p id="panner2Y_display" class="disptext">0</p>
             <div id="panner2X" class="sl"></div>
             <p id="panner2X_display" class="disptext">0</p>
+            <div id="waveform">
+  <!-- the waveform will be rendered here -->
+</div>
+
+<script type="module">
+import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js'
+
+const wavesurfer = WaveSurfer.create({
+  container: '#waveform',
+  waveColor: '#4F4A85',
+  progressColor: '#383351',
+  url: '../audio/sample.mp3',
+})
+
+wavesurfer.on('interaction', () => {
+  wavesurfer.play()
+})
+</script>
           </div>
         </div>
         <div id="box_play" class="row inbox">
